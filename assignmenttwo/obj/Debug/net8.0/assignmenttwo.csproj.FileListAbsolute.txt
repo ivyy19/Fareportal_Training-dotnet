@@ -1,0 +1,14 @@
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.AssemblyInfoInputs.cache
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.AssemblyInfo.cs
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.csproj.CoreCompileInputs.cache
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\bin\Debug\net8.0\assignmenttwo.exe
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\bin\Debug\net8.0\assignmenttwo.deps.json
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\bin\Debug\net8.0\assignmenttwo.runtimeconfig.json
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\bin\Debug\net8.0\assignmenttwo.dll
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\bin\Debug\net8.0\assignmenttwo.pdb
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.dll
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\refint\assignmenttwo.dll
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.pdb
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\assignmenttwo.genruntimeconfig.cache
+C:\Users\Ivy Bishnu\OneDrive\Desktop\fareportal prog\assignmenttwo\obj\Debug\net8.0\ref\assignmenttwo.dll
