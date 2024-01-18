@@ -1,0 +1,50 @@
+@model IEnumerable<mymvc.Models.Employeetable>
+
+@{
+    ViewData["Title"] = "GetAllEmployees";
+}
+
+<h1>GetAllEmployees</h1>
+<h1>Hello @ViewBag.UserName</h1>
+
+
+<p>
+    <a asp-action="AddEmployee">Register</a>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Eid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id=@item.Eid }) |
+                @Html.ActionLink("Know More", "Details", new { id=@item.Eid}) |
+                @Html.ActionLink("Delete", "Delete", new { id=@item.Eid })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

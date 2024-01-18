@@ -1,0 +1,19 @@
+@model IEnumerable<mymvc.Models.Employeetable>
+
+<table class="table">
+    <tr>
+    <th>Eid</th>
+    <th>Name</th>
+    <th>Salary</th>
+    </tr>
+
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Eid</td>
+            <td>@item.Ename</td>
+
+           <td>@item.Salary</td>
+        </tr>
+    }
+</table>
