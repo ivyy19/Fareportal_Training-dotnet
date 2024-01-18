@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mvcfirst
+build_property.RootNamespace = mvcfirst
+build_property.ProjectDir = C:\Users\L.Y.nu22\Desktop\prog\mvcfirst\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\L.Y.nu22\Desktop\prog\mvcfirst
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/AddSbAcct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xBZGRTYkFjY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/AddSBTrans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xBZGRTQlRyYW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/DeleteAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xEZWxldGVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/DeleteAccountConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xEZWxldGVBY2NvdW50Q29uZmlybWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/DeleteTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xEZWxldGVUcmFuc2FjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/DeleteTransactionConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xEZWxldGVUcmFuc2FjdGlvbkNvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/GetSbTransactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xHZXRTYlRyYW5zYWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/Showtrans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xTaG93dHJhbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/Showw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xTaG93dy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/UpdateSbAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xVcGRhdGVTYkFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Bank/UpdateSbTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xVcGRhdGVTYlRyYW5zYWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Employee/ShowDet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2hvd0RldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Employee/Showw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2hvd3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Home/Sample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L.Y.nu22/Desktop/prog/mvcfirst/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zoo5tgt2g2

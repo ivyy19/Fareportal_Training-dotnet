@@ -1,0 +1,23 @@
+ @*m-model-tobind the view to the model class*@
+ @*Model -dynamic property which holds *@
+@**@
+
+@model IEnumerable<mvcfirst.Models.Sbaccountivy>
+    <table class="table">
+        <tr>
+            <th>AccountNumber</th>
+            <th>Customer Name</th>
+            <th>Customer address</th>
+            <th>Current Balance</th>
+        </tr>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.AccountNumber</td>
+                <td>@item.CustomerName</td>
+                <td>@item.CustomerAddress</td>
+                <td>@item.CurrentBalance</td>
+            </tr>
+        }
+    </table>

@@ -1,0 +1,25 @@
+ @*m-model-tobind the view to the model class*@
+ @*Model -dynamic property which holds *@
+@**@
+
+@model IEnumerable<mvcfirst.Models.Sbtransactionsivy>
+    <table class="table">
+        <tr>
+            <th>Transaction Id</th>
+            <th>TransactionDate</th>
+            <th>Account Number</th>
+            <th>Amount</th>
+            <th>Transaction Type</th>
+        </tr>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.TransactionId</td>
+                <td>@item.TransactionDate</td>
+                <td>@item.AccountNumber</td>
+                <td>@item.Amount</td>
+                <td>@item.TransactionType</td>
+            </tr>
+        }
+    </table>
