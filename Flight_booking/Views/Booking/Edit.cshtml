@@ -1,0 +1,96 @@
+@model flightmvc.Models.BookingIvy
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit the booking</h1>
+
+<h4></h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BookingId" class="control-label"></label>
+                <input asp-for="BookingId" class="form-control" />
+                <span asp-validation-for="BookingId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FlightId" class="control-label"></label>
+                <input asp-for="FlightId" class="form-control" />
+                <span asp-validation-for="FlightId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label"></label>
+                <input asp-for="CustomerId" class="form-control" />
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingDate" ></label>
+                <input asp-for="BookingDate" class="form-control" />
+                @* <span asp-validation-for="CustomerId" class="text-danger"></span> *@
+            </div>
+            
+            
+            <div class="form-group">
+                <label asp-for="NoOfPassengers" class="control-label"></label>
+                <input asp-for="NoOfPassengers" class="form-control" />
+                <span asp-validation-for="NoOfPassengers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalCost" class="control-label"></label>
+                <input asp-for="TotalCost" class="form-control" readonly />
+                @* <span asp-validation-for="TotalCost" class="text-danger"></span> *@
+            </div>
+            <div class="form-group">
+                <label asp-for="Source" class="control-label"></label>
+                <input asp-for="Source" class="form-control" />
+                <span asp-validation-for="Source" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label"></label>
+                <input asp-for="Destination" class="form-control" />
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<hr>
+<div>
+    <a asp-action="BookIndex">Back to Home Page</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function()
+        {
+            $('#NoOfPassengers').change(function()
+            {
+                updateTotalCost();
+            });
+
+            function updateTotalCost()
+            {
+                var rate=parseFloat($('#Rate').val());
+                var passengers=parseInt($('NoOfPassengers').val());
+
+                if(!isNan(Rate) && !isNan(passengers))
+                {
+                    var TotalCost=rate*passengers;
+                    $('#TotalCost').val(TotalCost.toFixed(2));                }
+            }
+            }
+            
+        
+    
+   
+    updateTotalCost();
+    });
+    </script>
+     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

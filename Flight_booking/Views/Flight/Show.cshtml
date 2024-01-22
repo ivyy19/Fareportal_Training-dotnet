@@ -1,0 +1,59 @@
+@model IEnumerable<flightmvc.Models.FlightsIvy>
+
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h1>Flight Home Page</h1>
+
+<p>
+    <a asp-action="Add">Create New Flight</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit flight", "Edit", new { id=item.FlightId }) |
+                @Html.ActionLink("Details", "Details", new {id=item.FlightId  }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.FlightId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
