@@ -1,0 +1,88 @@
+@model IEnumerable<flightmvc.Models.BookingIvy>
+
+@{
+    ViewData["Title"] = "BookIndex";
+}
+
+<h1>Booking Home Page</h1>
+
+<p>
+    <a asp-action="Create"> Book your Flight!!</a>
+    <hr>
+    @* @Html.ActionLink("Add Flights","Add","Flight") *@
+    @* <hr>
+    @Html.ActionLink("Add Customers","Create","Customer") *@
+
+
+    
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightId)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.CustomerId)
+            </th> *@
+            
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfPassengers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalCost)
+            </th>
+            <th align="center">
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th align="center">
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookingId)
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.FlightId)
+            </td>
+            @* <td align="center">
+                @Html.DisplayFor(modelItem => item.CustomerId)
+            </td> *@
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.BookingDate)
+            </td>
+            <td align="center">
+                
+                @Html.DisplayFor(modelItem => item.NoOfPassengers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalCost)
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @Html.ActionLink("Edit Booking", "Edit", new { id=item.BookingId }) |
+                @Html.ActionLink("Booking Details", "Details", new { id=item.BookingId  }) |
+                @Html.ActionLink("Delete Booking", "Delete", new { id=item.BookingId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
